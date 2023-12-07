@@ -7,6 +7,9 @@
     "emitDecoratorMetadata": true,
     "target": "es2021"
   },
+  "typeAcquisition": {
+    "enable": true
+  },
   "exclude": ["jest.config.ts", "src/**/*.spec.ts", "src/**/*.test.ts"],
   "include": ["src/**/*.ts"]
 }
